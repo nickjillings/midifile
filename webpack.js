@@ -10,7 +10,7 @@ import MIDIFile from "./src/MIDIFile";
         if (root === undefined) {
             root = window;
         }
-        root.JSAP = factory();
+        root.MIDIFile = factory();
     }
 })(this, function() {
     return MIDIFile;
